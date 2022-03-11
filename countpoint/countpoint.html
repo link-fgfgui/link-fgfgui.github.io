@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>分数换算器</title>
+    <!-- <link rel="shortcut icon" href=""> -->
+    <script src="./js/count.js"></script>
+</head>
+
+<body>
+    <h2>分数换算器</h2>
+    <p></p>
+    <form action="">
+        <fieldset>
+            <legend>在下面换算分数：</legend>
+            语文： <input type="number" value=90 min="0.00" max="120.00" step="0.5" id="Chi" /><br> 数学： <input type="number" value=90 min="0.00" max="120.00" step="0.5" id="Mat" /><br> 英语： <input type="number" value=90 min="0.00" max="120.00" step="0.5"
+                id="Eng" /><br> 政治： <input type="number" value=90 min="0.00" max="100.00" step="0.5" id="Pol" /><br> 历史： <input type="number" value=90 min="0.00" max="100.00" step="0.5" id="His" /><br> 地理： <input type="number" value=90 min="0.00" max="100.00"
+                step="0.5" id="Geo" /><br> 生物： <input type="number" value=90 min="0.00" max="100.00" step="0.5" id="Bio" /><br> 物理： <input type="number" value=90 min="0.00" max="100.00" step="0.5" id="Phy" /><br> 化学： <input type="number" value=90 min="0.00"
+                max="100.00" step="0.5" id="Che" /><br> 体育： <input type="number" value=40 min="0.00" max="60.00" step="0.5" id="PE" /><br><br>
+            <input type="reset" value="重置">
+            <input type="button" value="确定" onclick=count()>
+        </fieldset>
+    </form>
+    <b id="result">结果：</b>
+    <p>
+        <br> 注：
+        <br>普高线：558<br>维汉：646 <br>一中：652<br>本校：628
+    </p>
+</body>
+
+</html>
