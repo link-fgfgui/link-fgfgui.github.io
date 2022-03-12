@@ -11,5 +11,5 @@ function count() {
     C2 = Number(document.getElementById("Che").value);
     PE = Number(document.getElementById("PE").value);
     result = ((G + B) * 0.4) + (PE * 2 / 3) + C1 + M + E + (Ph * 0.7) + (C2 * 0.5) + ((Po + H) * 0.6);
-    document.getElementById("result").innerHTML = "结果：" + result.toFixed(2).toString();
+    document.getElementById("result").innerHTML = "总分：" + result.toFixed(2).toString();
 }
