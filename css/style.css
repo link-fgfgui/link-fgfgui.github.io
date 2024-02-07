@@ -1,27 +1,31 @@
-
 /*包含以下五种的链接*/
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 /*正常的未被访问过的链接*/
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 /*已经访问过的链接*/
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 /*鼠标划过(停留)的链接*/
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 /* 正在点击的链接，鼠标在元素上按下还没有松开*/
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 /* 获得焦点的时候 鼠标松开时显示的颜色*/
 a:focus {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
@@ -30,6 +34,7 @@ body {
   text-align: center;
   user-select: none;
 }
+
 .head {
   margin-top: auto;
   font-family: "微软雅黑";
@@ -42,22 +47,25 @@ body {
   border-radius: 10px;
   color: black;
 }
-.main > div {
+
+.main>div {
   padding: 20px;
   color: black;
   background-color: rgb(240, 240, 240);
   max-width: 600px;
-  min-width: max-content;
+  min-width: fit-content;
   word-break: break-all;
   transform: translateX(calc(50vw - 50%));
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
   transition: all 250ms ease-in-out;
 }
-.main > div:hover {
+
+.main>div:hover {
   color: white;
   background-color: gray;
 }
+
 .foot {
   position: static;
   bottom: 10px;
